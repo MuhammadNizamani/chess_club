@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nizamani Chess Club</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css">
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Nizamani Chess Club</h1>
+            <ul class="hidden md:flex space-x-4">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rating">Rating</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Welcome to Nizamani Chess Club</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Repeat for each player -->
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/ishaque.jpg" alt="Ishaque Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Ishaque Nizamani</p>
+                    <p class="text-gray-600">Rating: 1388</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/ammar.jpg" alt="Ammar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Ammar Nizamani</p>
+                    <p class="text-gray-600">Rating: 1883</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/Inamullah.jpg" alt="Inamullah Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Inamullah Nizamani</p>
+                    <p class="text-gray-600">Rating: 789</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/zarar.jpg" alt="Zarar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Zarar Nizamani</p>
+                    <p class="text-gray-600">Rating: 1567</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/Hami.jpg" alt="Hamidullah Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Hamidullah Nizamani</p>
+                    <p class="text-gray-600">Rating: 1667</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/salman.jpg" alt="Salman Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Salman Nizamani</p>
+                    <p class="text-gray-600">Rating: 1024</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/sarwan.jpg" alt="sarwan Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Sarwan Nizamani</p>
+                    <p class="text-gray-600">Rating: 433</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/umar.jpg" alt="Umar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Umar Nizamani</p>
+                    <p class="text-gray-600">Rating: 968</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/uzair.jpg" alt="Uzair Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Uzair Nizamani</p>
+                    <p class="text-gray-600">Rating: 602</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/Mali.jpg" alt="M Ali Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">M Ali Nizamani</p>
+                    <p class="text-gray-600">Rating: 923</p>
+                </div>
+                <!-- Repeat ends here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section id="rating" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-8">Player Ratings</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-lg shadow-md">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="py-4 px-6 text-left">No#</th>
+                            <th class="py-4 px-6 text-left">Name</th>
+                            <th class="py-4 px-6 text-left">Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-t">
+                            <td class="py-4 px-6">1</td>
+                            <td class="py-4 px-6">Ammar Nizamani</td>
+                            <td class="py-4 px-6">1883</td>
+                        </tr>
+                        <tr class="border-t">
+                            <td class="py-4 px-6">2</td>
+                            <td class="py-4 px-6">Hamidullah Nizamani</td>
+                            <td class="py-4 px-6">1667</td>
+                        </tr>
+                        <tr class="border-t">
+                            <td class="py-4 px-6">3</td>
+                            <td class="py-4 px-6">Zarar Nizamani</td>
+                            <td class="py-4 px-6">1567</td>
+                        </tr>
+                        <!-- Repeat for each player -->
+                        <tr class="border-t">
+                            <td class="py-4 px-6">4</td>
+                            <td class="py-4 px-6">Ishaque Nizamani</td>
+                            <td class="py-4 px-6">1388</td>
+                        </tr>
+                        <!-- Repeat ends here -->
+                        <tr class="border-t">
+                            <td class="py-4 px-6">5</td>
+                            <td class="py-4 px-6">Salman Nizamani</td>
+                            <td class="py-4 px-6">1024</td>
+                        </tr>
+                       
+                        <tr class="border-t">
+                            <td class="py-4 px-6">6</td>
+                            <td class="py-4 px-6">Umar Nizamani</td>
+                            <td class="py-4 px-6">968</td>
+                        </tr>
+                        <tr class="border-t">
+                            <td class="py-4 px-6">7</td>
+                            <td class="py-4 px-6">M Ali Nizamani</td>
+                            <td class="py-4 px-6">923</td>
+                        </tr>
+                         <tr class="border-t">
+                            <td class="py-4 px-6">8</td>
+                            <td class="py-4 px-6">Inamullah Nizamani</td>
+                            <td class="py-4 px-6">789</td>
+                        </tr>
+                         <tr class="border-t">
+                            <td class="py-4 px-6">9</td>
+                            <td class="py-4 px-6">Uzair Nizamani</td>
+                            <td class="py-4 px-6">602</td>
+                        </tr>
+                        <tr class="border-t">
+                            <td class="py-4 px-6">10</td>
+                            <td class="py-4 px-6">Sarwan Nizamani</td>
+                            <td class="py-4 px-6">433</td>
+                        </tr>
+                        
+                       
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">About Us</h2>
+            <p class="text-gray-700">We are Nizamani Chess Club, dedicated to promoting the love of chess in Pakistan and beyond.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4 text-center">
+        <p>All rights belong to Muhammad Ishque Nizamani</p>
+    </footer>
+
+</body>
+</html>
