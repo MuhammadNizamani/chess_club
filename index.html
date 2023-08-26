@@ -12,16 +12,21 @@
 <body class="bg-gray-100 font-sans">
 
     <!-- Navigation -->
-    <nav class="bg-blue-600 text-white p-4">
+    <nav class="bg-blue-600 text-white p-6">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-semibold">Nizamani Chess Club</h1>
-            <ul class="hidden md:flex space-x-4">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#rating">Rating</a></li>
-                <li><a href="#about">About</a></li>
+            <div class="flex items-center space-x-4">
+                <img src="assets/chess.png" alt="Chess Logo" class="w-10 h-10 bg-none">
+                <h1 class="text-4xl font-bold">Nizamani Chess Club</h1>
+            </div>
+           <ul class="hidden md:flex space-x-4">
+                <li><a href="#home" class="font-bold text-xl">Home</a></li>
+                <li><a href="#rating" class="font-bold text-xl">Rating</a></li>
+                <li><a href="#about" class="font-bold text-xl">About</a></li>
             </ul>
+
         </div>
     </nav>
+
 
     <!-- Home Section -->
     <section id="home" class="py-16 bg-gray-200">
@@ -30,24 +35,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Repeat for each player -->
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                    <img src="./assets/ishaque.jpg" alt="Ishaque Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
-                    <p class="text-lg font-semibold">Ishaque Nizamani</p>
-                    <p class="text-gray-600">Rating: 1388</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 text-center">
                     <img src="./assets/ammar.jpg" alt="Ammar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
                     <p class="text-lg font-semibold">Ammar Nizamani</p>
                     <p class="text-gray-600">Rating: 1883</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                    <img src="./assets/Inamullah.jpg" alt="Inamullah Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
-                    <p class="text-lg font-semibold">Inamullah Nizamani</p>
-                    <p class="text-gray-600">Rating: 789</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                    <img src="./assets/zarar.jpg" alt="Zarar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
-                    <p class="text-lg font-semibold">Zarar Nizamani</p>
-                    <p class="text-gray-600">Rating: 1567</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
                     <img src="./assets/Hami.jpg" alt="Hamidullah Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
@@ -55,14 +45,19 @@
                     <p class="text-gray-600">Rating: 1667</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/zarar.jpg" alt="Zarar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Zarar Nizamani</p>
+                    <p class="text-gray-600">Rating: 1567</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/ishaque.jpg" alt="Ishaque Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Ishaque Nizamani</p>
+                    <p class="text-gray-600">Rating: 1388</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
                     <img src="./assets/salman.jpg" alt="Salman Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
                     <p class="text-lg font-semibold">Salman Nizamani</p>
                     <p class="text-gray-600">Rating: 1024</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                    <img src="./assets/sarwan.jpg" alt="sarwan Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
-                    <p class="text-lg font-semibold">Sarwan Nizamani</p>
-                    <p class="text-gray-600">Rating: 433</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
                     <img src="./assets/umar.jpg" alt="Umar Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
@@ -70,15 +65,27 @@
                     <p class="text-gray-600">Rating: 968</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/Mali.jpg" alt="M Ali Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">M Ali Nizamani</p>
+                    <p class="text-gray-600">Rating: 923</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                    <img src="./assets/Inamullah.jpg" alt="Inamullah Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Inamullah Nizamani</p>
+                    <p class="text-gray-600">Rating: 789</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 text-center">
                     <img src="./assets/uzair.jpg" alt="Uzair Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
                     <p class="text-lg font-semibold">Uzair Nizamani</p>
                     <p class="text-gray-600">Rating: 602</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                    <img src="./assets/Mali.jpg" alt="M Ali Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
-                    <p class="text-lg font-semibold">M Ali Nizamani</p>
-                    <p class="text-gray-600">Rating: 923</p>
+                    <img src="./assets/sarwan.jpg" alt="sarwan Nizamani" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <p class="text-lg font-semibold">Sarwan Nizamani</p>
+                    <p class="text-gray-600">Rating: 433</p>
                 </div>
+                
+                
                 <!-- Repeat ends here -->
             </div>
         </div>
